@@ -1,0 +1,16 @@
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\CMS.Service.Test.dll
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\CMS.Service.Test.pdb
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\CMS.Data.dll
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\CMS.Service.dll
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\EntityFramework.dll
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\CMS.Data.pdb
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\CMS.Service.pdb
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\EntityFramework.xml
+F:\Personal\CMS\CMS.Service.Test\obj\Debug\CMS.Service.Test.csprojResolveAssemblyReference.cache
+F:\Personal\CMS\CMS.Service.Test\obj\Debug\CMS.Service.Test.dll
+F:\Personal\CMS\CMS.Service.Test\obj\Debug\CMS.Service.Test.pdb
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\CMS.Service.Test.dll.config
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\EntityFramework.SqlServer.dll
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\EntityFramework.SqlServer.xml

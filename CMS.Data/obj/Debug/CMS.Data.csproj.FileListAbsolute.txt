@@ -1,0 +1,10 @@
+F:\Personal\CMS\CMS.Data\bin\Debug\CMS.Data.dll.config
+F:\Personal\CMS\CMS.Data\bin\Debug\CMS.Data.dll
+F:\Personal\CMS\CMS.Data\bin\Debug\CMS.Data.pdb
+F:\Personal\CMS\CMS.Data\bin\Debug\EntityFramework.dll
+F:\Personal\CMS\CMS.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\Personal\CMS\CMS.Data\bin\Debug\EntityFramework.xml
+F:\Personal\CMS\CMS.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\Personal\CMS\CMS.Data\obj\Debug\CMS.Data.csprojResolveAssemblyReference.cache
+F:\Personal\CMS\CMS.Data\obj\Debug\CMS.Data.dll
+F:\Personal\CMS\CMS.Data\obj\Debug\CMS.Data.pdb

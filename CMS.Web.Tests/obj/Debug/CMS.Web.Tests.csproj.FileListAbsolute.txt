@@ -1,0 +1,7 @@
+F:\Personal\CMS\CMS.Web.Tests\bin\Debug\CMS.Web.Tests.dll
+F:\Personal\CMS\CMS.Web.Tests\bin\Debug\CMS.Web.Tests.pdb
+F:\Personal\CMS\CMS.Web.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\Personal\CMS\CMS.Web.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+F:\Personal\CMS\CMS.Web.Tests\obj\Debug\CMS.Web.Tests.csprojResolveAssemblyReference.cache
+F:\Personal\CMS\CMS.Web.Tests\obj\Debug\CMS.Web.Tests.dll
+F:\Personal\CMS\CMS.Web.Tests\obj\Debug\CMS.Web.Tests.pdb

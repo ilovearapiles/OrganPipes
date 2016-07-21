@@ -1,0 +1,9 @@
+F:\Personal\CMS\CMS.Service\bin\Debug\CMS.Service.dll
+F:\Personal\CMS\CMS.Service\bin\Debug\CMS.Service.pdb
+F:\Personal\CMS\CMS.Service\bin\Debug\CMS.Data.dll
+F:\Personal\CMS\CMS.Service\bin\Debug\EntityFramework.dll
+F:\Personal\CMS\CMS.Service\bin\Debug\CMS.Data.pdb
+F:\Personal\CMS\CMS.Service\bin\Debug\EntityFramework.xml
+F:\Personal\CMS\CMS.Service\obj\Debug\CMS.Service.csprojResolveAssemblyReference.cache
+F:\Personal\CMS\CMS.Service\obj\Debug\CMS.Service.dll
+F:\Personal\CMS\CMS.Service\obj\Debug\CMS.Service.pdb
