@@ -17,8 +17,8 @@ namespace CMS.Data
         }
 
         public DbSet<Site> Sites { get; set; }
+        public DbSet<Company> Companies { get; set; }
         public DbSet<SiteFolder> SiteFolders { get; set; }
-
         public DbSet<SitePage> SitePages { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

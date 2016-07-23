@@ -48,6 +48,10 @@
       <Project>{1a41ccd6-bb68-46a7-b0cf-3c77eb6876d3}</Project>
       <Name>CMS.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CMS.DTO\CMS.DTO.csproj">
+      <Project>{83004c40-2e40-4ebf-a625-702594d10b8a}</Project>
+      <Name>CMS.DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

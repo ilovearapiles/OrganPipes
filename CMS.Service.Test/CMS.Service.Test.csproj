@@ -67,6 +67,10 @@
       <Project>{1A41CCD6-BB68-46A7-B0CF-3C77EB6876D3}</Project>
       <Name>CMS.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CMS.DTO\CMS.DTO.csproj">
+      <Project>{83004c40-2e40-4ebf-a625-702594d10b8a}</Project>
+      <Name>CMS.DTO</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CMS.Service\CMS.Service.csproj">
       <Project>{b5e7902e-d7fa-4e5b-a203-e2b66ba85486}</Project>
       <Name>CMS.Service</Name>

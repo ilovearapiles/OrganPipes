@@ -12,6 +12,6 @@ namespace CMS.Data
         IEnumerable<T> List();
 
         IEnumerable<T> ListFromDB();
-        void Save(T t);
+        T Save(T t);
     }
 }

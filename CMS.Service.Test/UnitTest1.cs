@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CMS.Data;
+using CMS.DTO.Factory;
+using CMS.DTO;
 
 namespace CMS.Service.Test
 {
@@ -10,17 +12,15 @@ namespace CMS.Service.Test
         [TestMethod]
         public void TestMethod1()
         {
-            SiteService siteService = new SiteService(new SiteRepository(new DataContext()));
+            SiteService siteService = new SiteService(new SiteRepository(new DataContext()), new SiteFactory());
 
-            siteService.CreateSite();
-        }
+            Site site = new Site
+            {
+                SiteName = "New Site",
+                Created =  DateTime.Now
+            };
 
-        [TestMethod]
-        public void TestMethod2()
-        {
-            SiteService siteService = new SiteService(new SiteRepository(new DataContext()));
-
-            siteService.CreateSite();
+            siteService.CreateSite(site);
         }
     }
 }

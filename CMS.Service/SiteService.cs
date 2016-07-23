@@ -1,4 +1,6 @@
 ﻿using CMS.Data;
+using CMS.DTO;
+using CMS.DTO.Factory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,14 +12,22 @@ namespace CMS.Service
     public class SiteService
     {
         SiteRepository _siteRepository;
-        public SiteService(SiteRepository siteRepository)
+        SiteFactory _siteFactory;
+
+        public SiteService(SiteRepository siteRepository, SiteFactory siteFactory)
         {
             _siteRepository = siteRepository;
+            _siteFactory = siteFactory;
         }
 
-        public void CreateSite()
+        public Site CreateSite(Site site)
         {
-            _siteRepository.Save(new Data.DataModel.Site { SiteName = "TEST", Created = DateTime.Now });
+            var siteData = _siteFactory.Map(site);
+
+            //ToDo: Validation
+            siteData = _siteRepository.Save(siteData);
+
+            return _siteFactory.Map(siteData);
         }
     }
 }

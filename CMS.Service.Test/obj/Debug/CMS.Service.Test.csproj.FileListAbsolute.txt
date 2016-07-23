@@ -14,3 +14,7 @@ F:\Personal\CMS\CMS.Service.Test\obj\Debug\CMS.Service.Test.pdb
 F:\Personal\CMS\CMS.Service.Test\bin\Debug\CMS.Service.Test.dll.config
 F:\Personal\CMS\CMS.Service.Test\bin\Debug\EntityFramework.SqlServer.dll
 F:\Personal\CMS\CMS.Service.Test\bin\Debug\EntityFramework.SqlServer.xml
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\CMS.DTO.dll
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\AutoMapper.dll
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\CMS.DTO.pdb
+F:\Personal\CMS\CMS.Service.Test\bin\Debug\AutoMapper.xml

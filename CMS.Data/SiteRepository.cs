@@ -38,7 +38,7 @@ namespace CMS.Data
             return _list(true);
         }
 
-        public void Save(Site site)
+        public Site Save(Site site)
         {
             site = _dataContext.Sites.Add(site);
             _dataContext.SaveChanges();
@@ -47,6 +47,8 @@ namespace CMS.Data
                 SiteCache.Remove(site.Id);
 
             SiteCache.Add(site.Id, site);
+
+            return site;
         }
 
         private IEnumerable<Site> _list(bool listFromDB = false)

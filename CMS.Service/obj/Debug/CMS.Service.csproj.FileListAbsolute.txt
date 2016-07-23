@@ -7,3 +7,7 @@ F:\Personal\CMS\CMS.Service\bin\Debug\EntityFramework.xml
 F:\Personal\CMS\CMS.Service\obj\Debug\CMS.Service.csprojResolveAssemblyReference.cache
 F:\Personal\CMS\CMS.Service\obj\Debug\CMS.Service.dll
 F:\Personal\CMS\CMS.Service\obj\Debug\CMS.Service.pdb
+F:\Personal\CMS\CMS.Service\bin\Debug\CMS.DTO.dll
+F:\Personal\CMS\CMS.Service\bin\Debug\AutoMapper.dll
+F:\Personal\CMS\CMS.Service\bin\Debug\CMS.DTO.pdb
+F:\Personal\CMS\CMS.Service\bin\Debug\AutoMapper.xml
