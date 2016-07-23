@@ -22,5 +22,13 @@ namespace CMS.Service.Test
 
             siteService.CreateSite(site);
         }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            SiteFolderRepository repo = new SiteFolderRepository(new DataContext());
+
+            repo.List();
+        }
     }
 }

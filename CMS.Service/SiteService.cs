@@ -20,14 +20,41 @@ namespace CMS.Service
             _siteFactory = siteFactory;
         }
 
+        public Site GetSite(int siteId)
+        {
+            //ToDo check auth
+            var site = _siteRepository.Get(siteId);
+
+            return _siteFactory.Map(site);
+        }
+
         public Site CreateSite(Site site)
         {
-            var siteData = _siteFactory.Map(site);
-
             //ToDo: Validation
+            if (!CanAccessSite())
+                return null;
+
+            var existingSite = GetSite(site.Id);
+
+            if (existingSite != null) //Site exist already
+            {
+                return existingSite;
+            }
+
+            //Add a new site
+            var siteData = _siteFactory.Map(site);
             siteData = _siteRepository.Save(siteData);
+            //Add new site Root Folder for it
+
+
 
             return _siteFactory.Map(siteData);
+        }
+
+        private bool CanAccessSite()
+        {
+            //ToDo;
+            return true;
         }
     }
 }
